@@ -78,6 +78,9 @@ local character_state = ""
 -- UTILITIES --
 ---------------
 
+---@class tablelib
+---@field contains function
+
 local debug = {
     is_enabled = function(self)
         return mod.settings["enable_debug_modding_tools"] and modding_tools and modding_tools:is_enabled()

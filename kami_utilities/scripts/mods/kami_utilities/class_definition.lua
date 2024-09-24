@@ -1,2 +1,0 @@
----@class tablelib
----@field contains function
